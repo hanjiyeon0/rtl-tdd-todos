@@ -17,6 +17,6 @@ describe("<TodoFrom />", () => {
                 value: "TDD 배우기",
             },
         });
-        expect(input).toHaveAttribute("value", "TDD배우기");
+        expect(input).toHaveAttribute("value", "TDD 배우기");
     });
 });
